@@ -5,7 +5,7 @@ if (args.length == 0){
     console.log("Error: no input.");
     console.log("Usage: node guess-flip --call=[heads|tails]");
 }
-else if (args[2].localeCompare('tails') != 0 && args[2].localeCompare('heads') != 0){
+else if (args[2]!='tails' && args[2]!='heads'){
     console.log("Error: no input.");
     console.log("Usage: node guess-flip --call=[heads|tails]");
 }
